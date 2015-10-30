@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2038B181BB6521900969FB0 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2038B171BB6521900969FB0 /* QuestionTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		D219F56E1BB5EF8D00C43CDB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D219F56D1BB5EF8D00C43CDB /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D2038B181BB6521900969FB0 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2038B171BB6521900969FB0 /* QuestionTableViewCell.m */; };
+		D219F56E1BB5EF8D00C43CDB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D219F56D1BB5EF8D00C43CDB /* DetailViewController.m */; };
+		D22287631BD2D731004103A9 /* RandomKardashian.m in Sources */ = {isa = PBXBuildFile; fileRef = D22287621BD2D731004103A9 /* RandomKardashian.m */; };
 		D22291301BADE06600656293 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = D222912F1BADE06600656293 /* about.html */; };
 		D22291331BADE0D100656293 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22291321BADE0D100656293 /* AboutViewController.m */; };
 		D22291361BADF13000656293 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = D22291351BADF13000656293 /* Question.m */; };
+		D22625291BE2F64E00F163BC /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22625281BE2F64E00F163BC /* CameraViewController.m */; };
 		D243BAAA1BADB1F00036DFF9 /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D243BAA91BADB1F00036DFF9 /* PhotosCollectionViewController.m */; };
 		D243BAAD1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D243BAAC1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.m */; };
 		D273410B1BBA1409003C0FCA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D273410A1BBA1409003C0FCA /* MapKit.framework */; };
-		D29A73621BB84D4E001C28F2 /* SearchKardashiansTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73611BB84D4E001C28F2 /* SearchKardashiansTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D29A73651BB85EAD001C28F2 /* SearchKardashiansTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73641BB85EAD001C28F2 /* SearchKardashiansTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		D29A73681BB869BA001C28F2 /* SKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73671BB869BA001C28F2 /* SKDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D29A736B1BB87349001C28F2 /* Kardashian.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A736A1BB87349001C28F2 /* Kardashian.m */; settings = {ASSET_TAGS = (); }; };
-		D29A736E1BB898A3001C28F2 /* QuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A736D1BB898A3001C28F2 /* QuestionDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D29A73711BB89E38001C28F2 /* EditQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73701BB89E38001C28F2 /* EditQuestionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D29F3A801BB6125500A2B96E /* AddQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F3A7F1BB6125500A2B96E /* AddQuestionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D29F3A811BB61FCF00A2B96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EAB7D31BAE02A0000AE9AD /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D2D6E67A1BB7AC9B004D71D2 /* KardashiansCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6E6791BB7AC9B004D71D2 /* KardashiansCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D2D6E67D1BB7ACB3004D71D2 /* KardashiansCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6E67C1BB7ACB3004D71D2 /* KardashiansCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		D29A73621BB84D4E001C28F2 /* SearchKardashiansTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73611BB84D4E001C28F2 /* SearchKardashiansTableViewController.m */; };
+		D29A73651BB85EAD001C28F2 /* SearchKardashiansTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73641BB85EAD001C28F2 /* SearchKardashiansTableViewCell.m */; };
+		D29A73681BB869BA001C28F2 /* SKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73671BB869BA001C28F2 /* SKDetailViewController.m */; };
+		D29A736B1BB87349001C28F2 /* Kardashian.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A736A1BB87349001C28F2 /* Kardashian.m */; };
+		D29A736E1BB898A3001C28F2 /* QuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A736D1BB898A3001C28F2 /* QuestionDetailViewController.m */; };
+		D29A73711BB89E38001C28F2 /* EditQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A73701BB89E38001C28F2 /* EditQuestionViewController.m */; };
+		D29F3A801BB6125500A2B96E /* AddQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29F3A7F1BB6125500A2B96E /* AddQuestionViewController.m */; };
+		D29F3A811BB61FCF00A2B96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EAB7D31BAE02A0000AE9AD /* Main.storyboard */; };
+		D2D6E67A1BB7AC9B004D71D2 /* KardashiansCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6E6791BB7AC9B004D71D2 /* KardashiansCollectionViewController.m */; };
+		D2D6E67D1BB7ACB3004D71D2 /* KardashiansCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6E67C1BB7ACB3004D71D2 /* KardashiansCollectionViewCell.m */; };
 		D2EAB7D21BADFC5A000AE9AD /* alzheimers-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2EAB7D11BADFC5A000AE9AD /* alzheimers-large.jpg */; };
 		D2F405391BACDF1E00DE4181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F405381BACDF1E00DE4181 /* main.m */; };
 		D2F4053C1BACDF1E00DE4181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F4053B1BACDF1E00DE4181 /* AppDelegate.m */; };
@@ -49,11 +51,15 @@
 		D2038B171BB6521900969FB0 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
 		D219F56C1BB5EF8D00C43CDB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D219F56D1BB5EF8D00C43CDB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D22287611BD2D731004103A9 /* RandomKardashian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomKardashian.h; sourceTree = "<group>"; };
+		D22287621BD2D731004103A9 /* RandomKardashian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomKardashian.m; sourceTree = "<group>"; };
 		D222912F1BADE06600656293 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; tabWidth = 4; };
 		D22291311BADE0D100656293 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		D22291321BADE0D100656293 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		D22291341BADF13000656293 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		D22291351BADF13000656293 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		D22625271BE2F64E00F163BC /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		D22625281BE2F64E00F163BC /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		D243BAA81BADB1F00036DFF9 /* PhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionViewController.h; sourceTree = "<group>"; };
 		D243BAA91BADB1F00036DFF9 /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewController.m; sourceTree = "<group>"; };
 		D243BAAB1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyPhotosCollectionViewCell.h; sourceTree = "<group>"; };
@@ -172,6 +178,10 @@
 				D29A736D1BB898A3001C28F2 /* QuestionDetailViewController.m */,
 				D29A736F1BB89E38001C28F2 /* EditQuestionViewController.h */,
 				D29A73701BB89E38001C28F2 /* EditQuestionViewController.m */,
+				D22287611BD2D731004103A9 /* RandomKardashian.h */,
+				D22287621BD2D731004103A9 /* RandomKardashian.m */,
+				D22625271BE2F64E00F163BC /* CameraViewController.h */,
+				D22625281BE2F64E00F163BC /* CameraViewController.m */,
 			);
 			path = "RememberMe?";
 			sourceTree = "<group>";
@@ -314,9 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29A73711BB89E38001C28F2 /* EditQuestionViewController.m in Sources */,
+				D22287631BD2D731004103A9 /* RandomKardashian.m in Sources */,
 				D243BAAD1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.m in Sources */,
 				D2038B181BB6521900969FB0 /* QuestionTableViewCell.m in Sources */,
 				D2D6E67D1BB7ACB3004D71D2 /* KardashiansCollectionViewCell.m in Sources */,
+				D22625291BE2F64E00F163BC /* CameraViewController.m in Sources */,
 				D243BAAA1BADB1F00036DFF9 /* PhotosCollectionViewController.m in Sources */,
 				D22291331BADE0D100656293 /* AboutViewController.m in Sources */,
 				D29A73681BB869BA001C28F2 /* SKDetailViewController.m in Sources */,
@@ -452,14 +464,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Elise Harris (B8QT74VPWM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "RememberMe?/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ech.RememberMe;
 				PRODUCT_NAME = "RememberMe?";
-				PROVISIONING_PROFILE = "e08e63b6-6898-40ff-b259-187ccd377b1a";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -468,14 +480,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Elise Harris (B8QT74VPWM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "RememberMe?/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ech.RememberMe;
 				PRODUCT_NAME = "RememberMe?";
-				PROVISIONING_PROFILE = "e08e63b6-6898-40ff-b259-187ccd377b1a";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

@@ -28,6 +28,8 @@ static NSString * const reuseIdentifier = @"Cell";
     @"khloe-kardashian.jpg", @"kim_kardashian_headshot_e.jpg",
     @"Kim-Kardashian-headshot-2-276x300.jpg", @"kris-humphries.jpg", @"Kylie-Jenner-Hair.jpg",
     @"northwest.jpg", @"scott-disick-300.jpg",@"Screen-Shot-2013-01-28-at-7.49.13-PM.png",@"w630_naya-headshot2"];
+    
+    
 //    
 //        UICollectionViewFlowLayout *collectionViewLayout =
 //        (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;

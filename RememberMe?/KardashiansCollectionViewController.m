@@ -18,6 +18,7 @@
 
 {
     NSArray *kfamilyPhotos;
+    NSArray *kfamilyNames;
 }
 
 static NSString * const reuseIdentifier = @"Cell2";
@@ -31,11 +32,13 @@ static NSString * const reuseIdentifier = @"Cell2";
     // Register cell classes
 //    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    kfamilyPhotos= @[@"damon.jpg", @"images.jpg",
+    kfamilyPhotos= @[@"damon.jpg",
                      @"img-thing.jpg", @"kanyewest_a.jpg", @"Kendall+Jenner+Celebrity+Social+Media+Pics+P1dOf43hRoSl.jpg",
-                     @"khloe-kardashian.jpg", @"kim_kardashian_headshot_e.jpg",
+                     @"khloe-kardashian.jpg",
                      @"Kim-Kardashian-headshot-2-276x300.jpg", @"kris-humphries.jpg", @"Kylie-Jenner-Hair.jpg",
                      @"northwest.jpg", @"scott-disick-300.jpg",@"Screen-Shot-2013-01-28-at-7.49.13-PM.png",@"w630_naya-headshot2"];
+    
+    kfamilyNames =@[@"Damon", @"Kourtney",@"Kanye", @"Kendall",@"Khloe",@"Kim",@"Kris",@"Kylie",@"North West",@"Scott",@"Cris",@"Naya"];
     
     // Do any additional setup after loading the view.
 }
@@ -71,6 +74,7 @@ static NSString * const reuseIdentifier = @"Cell2";
 //        UIImage *image = [UIImage imageNamed:imageNameToLoad];
         
         detailViewController.kardashianImage = [kfamilyPhotos objectAtIndex:indexPaths.row];
+        detailViewController.kardashianTestName = [kfamilyNames objectAtIndex:indexPaths.row];
     }
 }
 

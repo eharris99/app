@@ -10,5 +10,6 @@
 
 @interface FamilyPhotosCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *familyMemberImage;
+@property (nonatomic, strong) NSString *familymemberName;
 
 @end
